@@ -1,0 +1,58 @@
+/* start contact   */
+
+.contact {
+	background-color:#ff00ff;
+	background-color: #252f31;
+	overflow: hidden;
+	padding-top: 50px;
+	padding-bottom: none
+}
+	
+.contact .info{
+	width:50%;
+	margin-right: 5%;
+	float:left
+}
+.contact h2 {color: #fff;margin-left: 40px;}
+.contact p {color:#6a6e71;
+	margin-left: 40px;
+	line-height: 1.5}
+
+.contact p strong  { color: #d1d6da }
+
+
+.contact .form {
+	width:45%;
+	float:left
+}
+.contact .form label {
+	display: block;
+	color: #d1d6da;
+	margin-bottom: 10px 0
+}
+
+.contact .form input[type="text"] {
+	background-color: #4b5557;
+	color: #fff;
+	padding: 10px;
+	border: 0;
+	width: 80%;
+	margin-bottom: 10px
+}
+.contact .form textarea {
+	background-color: #4b5557;
+	color: #fff;
+	padding: 10px;
+	border: 0;
+	width: 80%;
+	margin-bottom: 10px;
+	height:300px;
+}
+.contact .form input {
+	background-color: #252f31;
+	color:#fff;
+	padding: 10px 20px;
+	cursor: pointer;
+	margin:10px 10px;
+}
+/* end contact   */

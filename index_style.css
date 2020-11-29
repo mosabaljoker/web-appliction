@@ -1,0 +1,133 @@
+
+body {
+	color: #8c8c8c;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	overflow-x: hidden;
+}
+
+a, button { transition: all 0.3s ease; }
+a:hover,
+a:focus {t
+	text-decoration: none;
+	outline: none;
+}
+
+h2 { font-size: 2.2rem; }
+.tm-thin-font { font-weight: 300; }
+
+.container-fluid {
+	background-color: #6B4B41;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1390px;
+	overflow-x: hidden;
+}
+
+@media (max-width: 1390px) {
+	.container-fluid {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}
+
+.tm-header-inner {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	height: 100px;
+}
+
+.tm-site-name {
+	color: #cc9900;
+	display: block;
+	font-size: 2.6rem;
+	font-weight: 400;
+}
+
+.tm-main-nav { font-size: 1.2rem; }
+
+.navbar-nav .nav-link {
+	border-radius: 6px;
+	color: black;
+	padding: 10px 40px;
+}
+
+.nav-item.active .nav-link,
+.nav-link:hover,
+.nav-link:focus {
+	color: white;
+	background-color: #cc9900;
+
+}
+
+}
+/* start contact   */
+
+.contact {
+
+	background-color: #ff00ff;
+	overflow: hidden;
+	padding-top: 50px;
+	padding-bottom: 70px
+}
+	
+.contact .info{
+	width:50%;
+	margin-right: 5%;
+	float:left
+}
+.contact h2 {color: #fff;margin-left: 40px;}
+.contact p {color:#6a6e71;
+	margin-left: 40px;
+	line-height: 1.5}
+
+.contact p strong  { color: #d1d6da }
+
+
+.contact .form {
+	width:45%;
+	float:left
+}
+.contact .form label {
+	display: block;
+	color: #d1d6da;
+	margin-bottom: 10px 0
+}
+
+.contact .form input[type="text"] {
+	background-color: #4b5557;
+	color: #fff;
+	padding: 10px;
+	border: 0;
+	width: 80%;
+	margin-bottom: 10px
+}
+.contact .form textarea {
+	background-color: #4b5557;
+	color: #fff;
+	padding: 10px;
+	border: 0;
+	width: 80%;
+	margin-bottom: 10px;
+	height:300px;
+}
+.contact .form input {
+	background-color: #252f31;
+	color:#fff;
+	padding: 10px 20px;
+	cursor: pointer;
+	margin:10px 0;
+}
+/* end contact   */
+
+
+
+
